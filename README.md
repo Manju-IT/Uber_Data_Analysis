@@ -58,7 +58,7 @@
 
 
 
-This project performs a comprehensive analysis of Uber ride data to uncover patterns in revenue, ride frequency, and trip behavior — and builds a predictive model to estimate fare amounts based on trip features.
+This project performs a comprehensive analysis of Uber ride data to uncover patterns in revenue, ride frequency, and trip behavior and builds a predictive model to estimate fare amounts based on trip features.
 
 
 
