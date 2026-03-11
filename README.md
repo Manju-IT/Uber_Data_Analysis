@@ -74,59 +74,6 @@ The analysis pipeline includes:
 
 
 
----
-
-
-
-## Dataset
-
-
-
-| Property | Detail |
-
-|----------|--------|
-
-| Source | Uber Fare Dataset (CSV) |
-
-| Total Records | ~200,000 rides |
-
-| Final Clean Records | ~199,256 |
-
-| Time Range | 2009 – 2015 |
-
-| Location | New York City |
-
-
-
-**Original Columns:**
-
-
-
-| Column | Description |
-
-|--------|-------------|
-
-| `Ride_Id` | Unique ride identifier |
-
-| `key` / `Ride_Time_Stamp` | Timestamp of ride request |
-
-| `fare_amount` | Fare charged in USD |
-
-| `pickup_datetime` | Date and time of pickup |
-
-| `pickup_longitude` | Pickup GPS longitude |
-
-| `pickup_latitude` | Pickup GPS latitude |
-
-| `dropoff_longitude` | Dropoff GPS longitude |
-
-| `dropoff_latitude` | Dropoff GPS latitude |
-
-| `passenger_count` | Number of passengers |
-
-
-
----
 
 
 
@@ -320,7 +267,7 @@ Revenue trends across weekdays — useful for identifying peak business days.
 
 
 
-![Day of Week Revenue](outputs/day_of_week_revenue.png)
+
 
 
 
@@ -329,18 +276,9 @@ Revenue trends across weekdays — useful for identifying peak business days.
 Pie chart showing proportional revenue contribution per year (2009–2015).
 
 
-
-![Year Wise Revenue](outputs/year_wise_revenue.png)
-
-
-
 ### Hourly Revenue Pattern
 
 Identifies peak hours for ride demand and revenue.
-
-
-
-![Hourly Revenue](outputs/hourly_revenue.png)
 
 
 
@@ -373,11 +311,6 @@ Solo riders (1 passenger) dominate both ride count and total revenue.
 ### Distance vs. Fare (Cleaned)
 
 Scatter plot filtered to distances 0–50 miles and fares $0–$200 to remove outliers.
-
-
-
-![Distance vs Fare](outputs/distance_vs_fare.png)
-
 
 
 **Trip Distance Distribution:**
@@ -588,35 +521,10 @@ The Random Forest model explains ~74.6% of fare variance, with an average predic
 
 
 
----
-
-
-
-## License
-
-
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-
-
----
-
-
 
 ## Author
 
-
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
-
-
----
+**Manjunath Kaaluru**
 
 
 
